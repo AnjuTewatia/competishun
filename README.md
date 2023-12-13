@@ -1,9 +1,13 @@
 # competishun
 # Table of Content
 Firebase Google Login
+
  # Movies 
+ 
   . Movies List
+  
   . Favourite List
+  
   . Watchlist List
 
   URL:
@@ -11,6 +15,7 @@ Firebase Google Login
 
   # Movies List 
   URL/movies
+  
    To see all the latest movies 
    # Favourite List 
    URL/favourite 
