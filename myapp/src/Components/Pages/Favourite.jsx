@@ -1,11 +1,13 @@
 import React from "react";
 import "./Movie.css";
+import Navbar from "../LoginSignup/Navbar/Navbar";
 
 const Favourite = () => {
   const favourite = JSON.parse(sessionStorage.getItem("fav")) || [];
 
   return (
     <div>
+      <Navbar />
       <h1> Favourite Movies</h1>
 
       <div className="movies">

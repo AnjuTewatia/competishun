@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="Navbar">
-        <Link to="/">Movies</Link>
+        <Link to="/movies">Movies</Link>
         <Link to="/watchlist">Watchlist</Link>
         <Link to="/favourite">Favorite</Link>
         <button className="btn" onClick={logout}>

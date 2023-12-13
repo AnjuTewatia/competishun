@@ -1,5 +1,6 @@
 // Watchlist.js
 import React from "react";
+import Navbar from "../LoginSignup/Navbar/Navbar";
 
 const Watchlist = () => {
   // console.log("Watchlist Movies:", watchlist);
@@ -10,6 +11,7 @@ const Watchlist = () => {
   };
   return (
     <div>
+      <Navbar />
       <h2>Watchlist</h2>
       <div className="movies">
         {watch.length > 0 &&

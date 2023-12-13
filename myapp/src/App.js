@@ -8,7 +8,7 @@ import AllRoutes from "./Components/AllRoutes/AllRoutes";
 function App() {
   return (
     <div className="App">
-      <Signup />
+      {/* <Signup /> */}
       <AllRoutes />
 
       {/* <Navbar /> */}

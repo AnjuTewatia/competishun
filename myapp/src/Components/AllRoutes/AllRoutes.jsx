@@ -9,8 +9,9 @@ const AllRoutes = () => {
   return (
     <div>
       <Routes>
-        {/* <Route path="/" element={<Signup />}></Route> */}
-        <Route path="/" element={<Movies />}></Route>
+        <Route path="/" element={<Signup />}></Route>
+
+        <Route path="/movies" element={<Movies />}></Route>
 
         <Route path="/watchlist" element={<Watchlist />}></Route>
         <Route path="/favourite" element={<Favourite />}></Route>

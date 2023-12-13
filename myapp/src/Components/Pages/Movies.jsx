@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./Movie.css";
 import Watchlist from "./Watchlist";
+import Navbar from "../LoginSignup/Navbar/Navbar";
 
 const Movies = () => {
   const [topRatedMovies, setTopRatedMovies] = useState([]);
@@ -49,6 +50,7 @@ const Movies = () => {
 
   return (
     <div>
+      <Navbar />
       <h2>Top Rated Movies</h2>
       <div className="movies">
         {topRatedMovies.map((movie) => (
