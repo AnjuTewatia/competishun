@@ -11,8 +11,13 @@ Firebase Google Login
 
   # Movies List 
   URL/movies
+   To see all the latest movies 
    # Favourite List 
    URL/favourite 
+
+   To see the movies marked as favourite
    
 # Watchlist
 URL/watchlist
+
+To see the movies to watch later 
